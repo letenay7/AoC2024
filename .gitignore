@@ -7,6 +7,10 @@
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+.idea/**/misc.xml
+.idea/**/vcs.xml
+.idea/**/inspectionProfiles/profiles_settings.xml
+.idea/**/.gitignore
 
 # AWS User-specific
 .idea/**/aws.xml

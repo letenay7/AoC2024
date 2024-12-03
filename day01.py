@@ -1,4 +1,4 @@
-from util import read_input
+from util import read_input_lines
 
 
 def part1(puzzle_input: list[str]) -> int:
@@ -15,6 +15,6 @@ def part2(puzzle_input: list[str]) -> int:
 
 
 if __name__ == '__main__':
-    puzzle_input = read_input("input_files/day01.txt")
+    puzzle_input = read_input_lines("input_files/day01.txt")
     print(part1(puzzle_input))
     print(part2(puzzle_input))

@@ -1,4 +1,4 @@
-from util import read_input
+from util import read_input_lines
 
 
 def tolerate_one_fault(level: list[int]) -> bool:
@@ -47,6 +47,6 @@ def part2(puzzle_input: list[str]) -> int:
 
 
 if __name__ == '__main__':
-    puzzle_input = read_input("input_files/day02.txt")
+    puzzle_input = read_input_lines("input_files/day02.txt")
     print(part1(puzzle_input))
     print(part2(puzzle_input))
