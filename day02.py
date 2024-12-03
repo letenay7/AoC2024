@@ -10,7 +10,6 @@ def tolerate_one_fault(level: list[int]) -> bool:
     return False
 
 
-
 def check_differences(level: list[int]) -> bool:
     for i in range(len(level) - 1):
         difference = abs(level[i] - level[i + 1])
